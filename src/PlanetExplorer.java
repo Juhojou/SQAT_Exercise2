@@ -59,12 +59,10 @@ public class PlanetExplorer {
 	}
 
 	public void setStatus(String givenStatus) {
-		String[] values = givenStatus.replaceAll("\\(", "").replaceAll("\\)","").replaceAll(",", "").split("");
-		for (int i=0; i<values.length; i++){
-			System.out.print(values[i] + " ");
-		}
-		xkoord = Integer.parseInt(values[0]);
-		ykoord = Integer.parseInt(values[1]);
-		facingDirection = values[2];
+		givenStatus.replaceAll("\\(", "").replaceAll("\\)","").replaceAll(",", "");
+		System.out.print(givenStatus);
+		//xkoord = Integer.parseInt(values[0]);
+		//ykoord = Integer.parseInt(values[1]);
+	//	facingDirection = values[2];
 	}
 }
