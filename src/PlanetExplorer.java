@@ -29,7 +29,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		String[] commands = command.split(",");
-		for (int j=0; j<command.length; j++)
+		for (int j=0; j<command.length(); j++)
 		{
 			System.out.print(command.length() + " ");
 			if (commands[j] == "r"){
