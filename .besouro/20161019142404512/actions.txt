@@ -104,3 +104,10 @@ RefactoringAction 1476877766542 PlanetExplorer.java RENAME setStatus(String, Str
 RefactoringAction 1476877781986 PlanetExplorer.java ADD privata String FIELD
 RefactoringAction 1476877785075 PlanetExplorer.java RENAME String=>String status FIELD
 EditAction 1476877796385 PlanetExplorer.java 1555 5 4 0
+CompilationAction 1476877796572 PlanetExplorer.java
+CompilationAction 1476877803077 PlanetExplorer.java
+UnitTestCaseAction 1476877804172 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877804172 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476877822614 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877822614 TestPlanetExplorer.java FAIL
+EditAction 1476877832848 TestPlanetExplorer.java 694 3 7 3
