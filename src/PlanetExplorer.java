@@ -36,7 +36,7 @@ public class PlanetExplorer {
 			if (commands[j] == "f"){
 				goForward();
 			}
-			
+		}
 		return null;
 	}
 
