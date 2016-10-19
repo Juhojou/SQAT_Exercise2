@@ -28,14 +28,35 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
+		if (command.length() == 1){
+			if (command == "r"){
+				 turnRight();
+			}
+			if (command == "l"){
+				turnLeft();
+			}
+			if (command == "f"){
+				goForward();
+			}
+			if (command == "b"){
+				goBackward();
+			}
+		}
 		String[] commands = command.split("");
 		for (int j=0; j<commands.length; j++)
 		{
-
+			if (commands[j] == "r"){
+				 turnRight();
+			}
+			if (commands[j] == "l"){
+				turnLeft();
+			}
 			if (commands[j] == "f"){
 				goForward();
 			}
-	
+			if (commands[j] == "b"){
+				goBackward();
+			}
 		}
 			
 		return null;
