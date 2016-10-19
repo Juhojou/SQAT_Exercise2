@@ -613,3 +613,6 @@ RefactoringAction 1476882864451 TestPlanetExplorer.java ADD void test_wrapping()
 RefactoringAction 1476882869599 TestPlanetExplorer.java RENAME test_wrapping()/2=>void test_makeTwoO() METHOD
 RefactoringAction 1476882871658 TestPlanetExplorer.java RENAME test_makeTwoO()=>void test_makeTwoObstacles() METHOD
 EditAction 1476882927289 TestPlanetExplorer.java 2676 11 33 11
+RefactoringAction 1476882940627 TestPlanetExplorer.java RENAME test_makeTwoObstacles()=>void test_makeOneObstacles() METHOD
+RefactoringAction 1476882962654 PlanetExplorer.java ADD Object getObstacleCount() METHOD
+EditAction 1476882964308 PlanetExplorer.java 2551 11 18 0

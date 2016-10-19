@@ -88,4 +88,9 @@ public class PlanetExplorer {
 		ykoord = Integer.parseInt(values[1]);
 		facingDirection = values[2];
 	}
+
+	public Object getObstacleCount() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
