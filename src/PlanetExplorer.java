@@ -49,7 +49,7 @@ public class PlanetExplorer {
 		return null;
 	}
 
-	private void goForward() {
+	static private void goForward() {
 		ykoord++;
 	}
 	
