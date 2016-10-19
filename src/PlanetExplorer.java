@@ -35,13 +35,13 @@ public class PlanetExplorer {
 			if (commands[j] == "r"){
 				 turnRight();
 			}
-			if (commands[j] == "l"){
+			else if (commands[j] == "l"){
 				turnLeft();
 			}
-			if (commands[j] == "f"){
+			else if (commands[j] == "f"){
 				goForward();
 			}
-			if (commands[j] == "b"){
+			else if (commands[j] == "b"){
 				goBackward();
 			}
 		}
