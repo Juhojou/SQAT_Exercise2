@@ -30,7 +30,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		//String[] commands = command.split("");
-		for (String asd: command.split("")) {
+		for (String asd: command.split("")) 
 		{
 			if (asd == "r"){
 				 turnRight();
@@ -39,7 +39,7 @@ public class PlanetExplorer {
 				turnLeft();
 			}
 			if (asd == "f"){
-				goForward();
+				ykoord++;
 			}
 			if (asd == "b"){
 				goBackward();
