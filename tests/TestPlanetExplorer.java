@@ -77,8 +77,8 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void test_makeTwoObstacles() throws PlanetExplorerException{
-		PlanetExplorer explorer = new PlanetExplorer(100, 100, "(obs1_x,obs1_y)");
-		assertEquals("(0,99,N)", explorer.getStatus());
+	public void test_makeOneObstacles() throws PlanetExplorerException{
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, "(5,5)");
+		assertEquals(1, explorer.getObstacleCount());
 	}
 }

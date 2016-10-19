@@ -20,6 +20,11 @@ public class PlanetExplorer {
 	 */
 	}
 	
+	public Object getObstacleCount() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 	public int getPlanetYSize(){
 		return ySize;
 	}
@@ -89,8 +94,5 @@ public class PlanetExplorer {
 		facingDirection = values[2];
 	}
 
-	public Object getObstacleCount() {
-		// TODO Auto-generated method stub
-		return null;
-	}
+
 }

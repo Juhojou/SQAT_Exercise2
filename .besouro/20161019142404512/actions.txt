@@ -616,3 +616,6 @@ EditAction 1476882927289 TestPlanetExplorer.java 2676 11 33 11
 RefactoringAction 1476882940627 TestPlanetExplorer.java RENAME test_makeTwoObstacles()=>void test_makeOneObstacles() METHOD
 RefactoringAction 1476882962654 PlanetExplorer.java ADD Object getObstacleCount() METHOD
 EditAction 1476882964308 PlanetExplorer.java 2551 11 18 0
+RefactoringAction 1476882967147 PlanetExplorer.java REMOVE getObstacleCount() METHOD
+RefactoringAction 1476882970751 PlanetExplorer.java ADD Object getObstacleCount() METHOD
+EditAction 1476883034430 TestPlanetExplorer.java 2664 11 33 11
