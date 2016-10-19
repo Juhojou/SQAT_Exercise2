@@ -33,6 +33,7 @@ public class PlanetExplorer {
 		for (int j=0; j<commands.length; j++)
 		{
 			if (commands[j] == "r"){
+				System.out.print("asd");
 				 turnRight();
 			}
 			if (commands[j] == "l"){
