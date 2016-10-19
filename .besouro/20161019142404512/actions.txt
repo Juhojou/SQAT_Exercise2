@@ -46,3 +46,16 @@ UnitTestSessionAction 1476876906859 TestPlanetExplorer.java OK
 RefactoringAction 1476876920992 TestPlanetExplorer.java ADD void test_planetIsMade()/2 METHOD
 RefactoringAction 1476876947778 TestPlanetExplorer.java REMOVE test_planetIsMade()/2 METHOD
 EditAction 1476876948246 TestPlanetExplorer.java 306 1 4 1
+UnitTestCaseAction 1476877018317 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877018317 TestPlanetExplorer.java OK
+RefactoringAction 1476877040438 TestPlanetExplorer.java ADD void test_planetIsMade()/2 METHOD
+RefactoringAction 1476877049189 TestPlanetExplorer.java RENAME test_planetIsMade()/2=>void test_explorer() METHOD
+RefactoringAction 1476877050235 TestPlanetExplorer.java RENAME test_explorer()=>void test_explorerIs() METHOD
+RefactoringAction 1476877053323 TestPlanetExplorer.java RENAME test_explorerIs()=>void test_explorerIsF() METHOD
+RefactoringAction 1476877055913 TestPlanetExplorer.java RENAME test_explorerIsF()=>void test_explorerIsFacingNort() METHOD
+RefactoringAction 1476877059002 TestPlanetExplorer.java RENAME test_explorerIsFacingNort()=>void test_explorerIsFacingNortin() METHOD
+RefactoringAction 1476877065179 TestPlanetExplorer.java RENAME test_explorerIsFacingNortin()=>void test_explorerIsFacing() METHOD
+RefactoringAction 1476877066724 TestPlanetExplorer.java RENAME test_explorerIsFacing()=>void test_explorerIsFacingNorth() METHOD
+RefactoringAction 1476877161245 TestPlanetExplorer.java ADD Object getStatus(PlanetExplorer) METHOD
+RefactoringAction 1476877164521 TestPlanetExplorer.java REMOVE getStatus(PlanetExplorer) METHOD
+EditAction 1476877178499 TestPlanetExplorer.java 464 2 4 2
