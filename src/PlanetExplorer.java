@@ -44,7 +44,7 @@ public class PlanetExplorer {
 	}
 
 	private void goForward() {
-		status = "(0,1,N)";
+		xkoord++;
 	}
 
 	private void turnLeft() {
@@ -60,6 +60,6 @@ public class PlanetExplorer {
 	}
 
 	public String getStatus() {
-		return "(" + xkoord + "," + ykoord + facingDirection + ")";
+		return "(" + xkoord + "," + ykoord + "," + facingDirection + ")";
 	}
 }
