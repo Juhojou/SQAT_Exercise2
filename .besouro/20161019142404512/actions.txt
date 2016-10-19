@@ -89,3 +89,18 @@ EditAction 1476877381869 TestPlanetExplorer.java 694 3 7 3
 UnitTestCaseAction 1476877383136 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476877383136 TestPlanetExplorer.java OK
 EditAction 1476877395148 TestPlanetExplorer.java 694 3 7 3
+UnitTestCaseAction 1476877396227 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877396227 TestPlanetExplorer.java FAIL
+RefactoringAction 1476877445024 PlanetExplorer.java ADD void makeTurn() METHOD
+RefactoringAction 1476877482823 PlanetExplorer.java RENAME makeTurn()=>void turnRight() METHOD
+CompilationAction 1476877600042 PlanetExplorer.java
+CompilationAction 1476877600042 PlanetExplorer.java
+CompilationAction 1476877615439 PlanetExplorer.java
+CompilationAction 1476877615439 PlanetExplorer.java
+CompilationAction 1476877615564 PlanetExplorer.java
+RefactoringAction 1476877734094 PlanetExplorer.java ADD void setStatus(String) METHOD
+RefactoringAction 1476877764919 PlanetExplorer.java RENAME setStatus(String)=>void setStatus(String, String) METHOD
+RefactoringAction 1476877766542 PlanetExplorer.java RENAME setStatus(String, String)=>void setStatus(String) METHOD
+RefactoringAction 1476877781986 PlanetExplorer.java ADD privata String FIELD
+RefactoringAction 1476877785075 PlanetExplorer.java RENAME String=>String status FIELD
+EditAction 1476877796385 PlanetExplorer.java 1555 5 4 0
