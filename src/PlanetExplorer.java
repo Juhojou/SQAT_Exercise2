@@ -36,7 +36,7 @@ public class PlanetExplorer {
 	}
 
 	private void turnRight() {
-		setStatus("(0,0,E");
+		setStatus("(0,0,E)");
 	}
 
 	private void setStatus(String newStatus) {

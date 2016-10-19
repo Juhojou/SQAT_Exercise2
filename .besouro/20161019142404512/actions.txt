@@ -111,3 +111,11 @@ UnitTestSessionAction 1476877804172 TestPlanetExplorer.java FAIL
 UnitTestCaseAction 1476877822614 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877822614 TestPlanetExplorer.java FAIL
 EditAction 1476877832848 TestPlanetExplorer.java 694 3 7 3
+UnitTestCaseAction 1476877833975 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877833975 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476877852402 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877852402 TestPlanetExplorer.java OK
+RefactoringAction 1476877882089 TestPlanetExplorer.java ADD void test_explorerTurnsToRigth()/2 METHOD
+RefactoringAction 1476877889811 TestPlanetExplorer.java RENAME test_explorerTurnsToRigth()/2=>void test_emptyCommandGives() METHOD
+RefactoringAction 1476877893414 TestPlanetExplorer.java RENAME test_emptyCommandGives()=>void test_emptyCommandGivesLandingStatus() METHOD
+EditAction 1476877898328 TestPlanetExplorer.java 931 4 10 4
