@@ -51,7 +51,7 @@ public class PlanetExplorer {
 	}
 
 	private void goForward() {
-		ykoord++;
+		ykoord = ykoord + 1;
 	}
 	
 	private void goBackward() {
