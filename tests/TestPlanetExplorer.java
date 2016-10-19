@@ -68,4 +68,11 @@ public class TestPlanetExplorer {
 		explorer.executeCommand("f");
 		assertEquals("(0,2,N)", explorer.getStatus());
 	}
+	
+	@Test
+	public void test_wrapping() throws PlanetExplorerException{
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
+		explorer.executeCommand("b");
+		assertEquals("(0,99,N)", explorer.getStatus());
+	}
 }

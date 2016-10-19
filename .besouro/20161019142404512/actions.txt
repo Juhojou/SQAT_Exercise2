@@ -581,3 +581,7 @@ EditAction 1476882533242 TestPlanetExplorer.java 2249 9 28 9
 UnitTestCaseAction 1476882534981 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476882534981 TestPlanetExplorer.java OK
 EditAction 1476882562578 PlanetExplorer.java 2289 8 13 0
+RefactoringAction 1476882572593 TestPlanetExplorer.java ADD void test_explorerMovesTwiceForwardandLandsToStatus_0_2_N()/2 METHOD
+RefactoringAction 1476882578770 TestPlanetExplorer.java RENAME test_explorerMovesTwiceForwardandLandsToStatus_0_2_N()/2=>void test_wrappingN() METHOD
+RefactoringAction 1476882580315 TestPlanetExplorer.java RENAME test_wrappingN()=>void test_wrapping() METHOD
+EditAction 1476882594355 TestPlanetExplorer.java 2468 10 31 10
