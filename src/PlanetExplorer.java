@@ -60,7 +60,7 @@ public class PlanetExplorer {
 
 	public void setStatus(String givenStatus) {
 		String[] values = givenStatus.replaceAll("\\p{P}","").split("");
-		System.out.print(values[1]);
+		System.out.print(values[0]);
 		
 	}
 }
