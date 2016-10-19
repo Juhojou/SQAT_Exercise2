@@ -18,16 +18,18 @@ public class TestPlanetExplorer {
 	}
 
 	@Test
+	public void test_emptyCommandGivesLandingStatus() throws PlanetExplorerException{
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
+		explorer.executeCommand("");
+		assertEquals("(0,0,N)", explorer.getStatus());
+	}
+	
+	@Test
 	public void test_explorerTurnsToRigth() throws PlanetExplorerException{
 		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
 		explorer.executeCommand("r");
 		assertEquals("(0,0,E)", explorer.getStatus());
 	}
 	
-	@Test
-	public void test_emptyCommandGivesLandingStatus() throws PlanetExplorerException{
-		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
-		explorer.executeCommand("");
-		assertEquals("(0,0,N)", explorer.getStatus());
-	}
+	
 }
