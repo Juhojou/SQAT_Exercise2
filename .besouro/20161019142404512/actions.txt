@@ -268,3 +268,6 @@ UnitTestSessionAction 1476879634784 TestPlanetExplorer.java FAIL
 RefactoringAction 1476879660664 PlanetExplorer.java ADD void goForward()/2 METHOD
 RefactoringAction 1476879678168 PlanetExplorer.java RENAME goForward()/2=>void goBackward() METHOD
 EditAction 1476879678807 PlanetExplorer.java 2095 8 14 0
+UnitTestCaseAction 1476879679802 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476879679802 TestPlanetExplorer.java FAIL
+EditAction 1476879702375 TestPlanetExplorer.java 1960 8 24 8

@@ -58,6 +58,6 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
 		explorer.setStatus("(10,3,N)");
 		explorer.executeCommand("b");
-		assertEquals("(10,4,N)", explorer.getStatus());
+		assertEquals("(10,2,N)", explorer.getStatus());
 	}
 }
