@@ -67,7 +67,7 @@ public class PlanetExplorer {
 	}
 
 	private void goForward() {
-		ykoord++;
+		this.ykoord++;
 	}
 	
 	private void goBackward() {
