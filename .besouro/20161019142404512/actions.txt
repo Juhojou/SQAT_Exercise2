@@ -314,3 +314,8 @@ EditAction 1476880078124 PlanetExplorer.java 2250 8 13 0
 UnitTestCaseAction 1476880079827 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476880079827 TestPlanetExplorer.java FAIL
 EditAction 1476880115364 TestPlanetExplorer.java 2253 9 28 9
+UnitTestCaseAction 1476880116303 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476880116303 TestPlanetExplorer.java FAIL
+RefactoringAction 1476880125944 TestPlanetExplorer.java RENAME test_explorerMoves_f_f_r_f_f_andLandsToStatus_2_2_E()=>void test_explorerMoves_f_f_r_f_f_From_0_0_andLandsToStatus_2_2_E() METHOD
+RefactoringAction 1476880128003 TestPlanetExplorer.java RENAME test_explorerMoves_f_f_r_f_f_From_0_0_andLandsToStatus_2_2_E()=>void test_explorerMoves_f_f_r_f_f_andLandsToStatus_2_2_E() METHOD
+EditAction 1476880129828 TestPlanetExplorer.java 2220 9 27 9
