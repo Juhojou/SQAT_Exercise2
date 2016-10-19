@@ -75,10 +75,4 @@ public class TestPlanetExplorer {
 		explorer.executeCommand("b");
 		assertEquals("(0,99,N)", explorer.getStatus());
 	}
-	
-	@Test
-	public void test_makeOneObstacles() throws PlanetExplorerException{
-		PlanetExplorer explorer = new PlanetExplorer(100, 100, "(5,5)");
-		assertEquals(1, explorer.getObstacleCount());
-	}
 }

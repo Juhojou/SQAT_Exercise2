@@ -5,19 +5,12 @@
 
 public class PlanetExplorer {
 	
-	private int xkoord = 0, ykoord = 0, ySize=0, xSize=0, obstacleCount=0;
+	private int xkoord = 0, ykoord = 0, ySize=0, xSize=0;
 	private String facingDirection = "N";
 	
 	public PlanetExplorer(int x, int y, String obstacles){
-		if (obstacles != null){
-			y = ySize;
-			x = xSize;
-			String[] obstaclesInGrid = obstacles.replaceAll("\\(", "").replaceAll("\\)","").replaceAll(",", " ").split(" ");
-			int xkoordObstacle = Integer.parseInt(obstaclesInGrid[0]);
-			int ykoordObstacle = Integer.parseInt(obstaclesInGrid[1]);
-			obstacleCount++;
-		}
-		
+		y = ySize;
+		x = xSize;
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
 	 *  
@@ -25,10 +18,6 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
-	}
-	
-	public int getObstacleCount() {
-		return obstacleCount;
 	}
 	
 	public int getPlanetYSize(){
@@ -75,9 +64,6 @@ public class PlanetExplorer {
 	}
 	
 	private void goBackward() {
-		if (ykoord == 0){
-			ykoord = 100;
-		}
 		ykoord--;
 	}
 

@@ -635,3 +635,23 @@ EditAction 1476883368189 TestPlanetExplorer.java 2633 11 32 11
 UnitTestCaseAction 1476883369237 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476883369237 TestPlanetExplorer.java FAIL
 EditAction 1476883373012 TestPlanetExplorer.java 2664 11 33 11
+UnitTestCaseAction 1476883374544 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883374544 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476883396300 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883396300 TestPlanetExplorer.java FAIL
+RefactoringAction 1476883414068 PlanetExplorer.java REMOVE obstacleCount FIELD
+RefactoringAction 1476883420231 PlanetExplorer.java REMOVE getObstacleCount() METHOD
+CompilationAction 1476883420543 TestPlanetExplorer.java
+UnitTestCaseAction 1476883431358 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883431358 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476883448746 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883448746 TestPlanetExplorer.java FAIL
+RefactoringAction 1476883465002 PlanetExplorer.java ADD Object getObstacleCount() METHOD
+RefactoringAction 1476883467061 PlanetExplorer.java REMOVE getObstacleCount() METHOD
+UnitTestCaseAction 1476883468405 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883468405 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476883503696 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883503696 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476883520672 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883520672 TestPlanetExplorer.java FAIL
+EditAction 1476883535211 PlanetExplorer.java 2342 10 15 0
