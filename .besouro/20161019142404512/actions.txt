@@ -607,3 +607,9 @@ EditAction 1476882821151 PlanetExplorer.java 2458 10 17 0
 UnitTestCaseAction 1476882822137 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476882822137 TestPlanetExplorer.java FAIL
 EditAction 1476882837238 PlanetExplorer.java 2459 10 17 0
+UnitTestCaseAction 1476882838025 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476882838025 TestPlanetExplorer.java OK
+RefactoringAction 1476882864451 TestPlanetExplorer.java ADD void test_wrapping()/2 METHOD
+RefactoringAction 1476882869599 TestPlanetExplorer.java RENAME test_wrapping()/2=>void test_makeTwoO() METHOD
+RefactoringAction 1476882871658 TestPlanetExplorer.java RENAME test_makeTwoO()=>void test_makeTwoObstacles() METHOD
+EditAction 1476882927289 TestPlanetExplorer.java 2676 11 33 11
