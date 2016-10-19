@@ -500,3 +500,7 @@ EditAction 1476881742038 PlanetExplorer.java 2265 8 12 0
 UnitTestCaseAction 1476881742867 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476881742867 TestPlanetExplorer.java FAIL
 EditAction 1476881752415 PlanetExplorer.java 2279 8 12 0
+UnitTestCaseAction 1476881767550 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476881767550 TestPlanetExplorer.java FAIL
+RefactoringAction 1476881789546 PlanetExplorer.java REMOVE setStatus(String) METHOD
+EditAction 1476881789670 PlanetExplorer.java 2014 7 8 0
