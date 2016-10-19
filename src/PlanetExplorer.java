@@ -60,7 +60,6 @@ public class PlanetExplorer {
 
 	public void setStatus(String givenStatus) {
 		String[] values = givenStatus.replaceAll("\\p{P}","").split("");
-		System.out.print(values.toString());
 		xkoord = Integer.parseInt(values[0]);
 		ykoord = Integer.parseInt(values[1]);
 		facingDirection = values[2];
