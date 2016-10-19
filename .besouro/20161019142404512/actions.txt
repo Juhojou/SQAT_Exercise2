@@ -585,3 +585,13 @@ RefactoringAction 1476882572593 TestPlanetExplorer.java ADD void test_explorerMo
 RefactoringAction 1476882578770 TestPlanetExplorer.java RENAME test_explorerMovesTwiceForwardandLandsToStatus_0_2_N()/2=>void test_wrappingN() METHOD
 RefactoringAction 1476882580315 TestPlanetExplorer.java RENAME test_wrappingN()=>void test_wrapping() METHOD
 EditAction 1476882594355 TestPlanetExplorer.java 2468 10 31 10
+UnitTestCaseAction 1476882595575 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476882595575 TestPlanetExplorer.java FAIL
+RefactoringAction 1476882640768 PlanetExplorer.java ADD void ge FIELD
+RefactoringAction 1476882643342 PlanetExplorer.java RENAME ge=>void getPlanetX FIELD
+RefactoringAction 1476882644886 PlanetExplorer.java RENAME getPlanetX=>void getPlanetY FIELD
+RefactoringAction 1476882649005 PlanetExplorer.java RENAME getPlanetY=>void getPlanetYSize() METHOD
+RefactoringAction 1476882699970 PlanetExplorer.java ADD int ySize FIELD
+RefactoringAction 1476882701515 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1476882704603 PlanetExplorer.java RENAME x=>int xSize FIELD
+EditAction 1476882715430 PlanetExplorer.java 2373 9 14 0
