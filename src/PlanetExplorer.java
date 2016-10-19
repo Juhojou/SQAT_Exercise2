@@ -20,7 +20,6 @@ public class PlanetExplorer {
 	}
 	
 	public String executeCommand(String command){
-		System.out.print(command.length());
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
@@ -30,52 +29,8 @@ public class PlanetExplorer {
 		 * Where pos_x and pos_y are the final coordinates, facing is the current direction the explorer is pointing to (N,S,W,E).
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
-		if (command.length() >=2){
-			String[] commands = command.split("");
-			String command1 = commands[0];
-			String command2 = commands[1];
-			if (command1 == "r"){
-				 turnRight();
-			}
-			if (command1 == "l"){
-				turnLeft();
-			}
-			if (command1 == "f"){
-				goForward();
-			}
-			if (command1 == "b"){
-				goBackward();
-			}
-			
-			if (command2 == "r"){
-				 turnRight();
-			}
-			if (command2 == "l"){
-				turnLeft();
-			}
-			if (command2 == "f"){
-				goForward();
-			}
-			if (command2 == "b"){
-				goBackward();
-			
-		}
-		else {
-			if (command == "r"){
-				 turnRight();
-			}
-			if (command == "l"){
-				turnLeft();
-			}
-			if (command == "f"){
-				goForward();
-			}
-			if (command == "b"){
-				goBackward();
-			}
-	}
-		}
-		/*String[] commands = command.split("");
+
+		String[] commands = command.split("");
 		for (int j=0; j<command.length(); j++)
 		{
 			if (commands[j] == "r"){
@@ -90,7 +45,7 @@ public class PlanetExplorer {
 			if (commands[j] == "b"){
 				goBackward();
 			}
-		}*/
+		}
 			
 		return null;
 	}
