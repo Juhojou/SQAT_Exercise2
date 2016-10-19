@@ -4,3 +4,7 @@ UnitTestSessionAction 1476876382735 SpreadsheetTest.java FAIL
 UnitTestCaseAction 1476876419734 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476876419734 TestPlanetExplorer.java FAIL
 EditAction 1476876464382 TestPlanetExplorer.java 215 1 1 0
+CompilationAction 1476876464543 TestPlanetExplorer.java
+CompilationAction 1476876464543 TestPlanetExplorer.java
+CompilationAction 1476876470832 TestPlanetExplorer.java
+EditAction 1476876513742 TestPlanetExplorer.java 204 1 1 0

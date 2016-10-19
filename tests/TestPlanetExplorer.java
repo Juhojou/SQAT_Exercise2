@@ -5,7 +5,7 @@ import org.junit.Test;
 public class TestPlanetExplorer {
 
 	@Test
-	public void (expected=PlanetExplorerException.class) test_executeCommand() {
+	public void test_executeCommand() throws PlanetExplorerException{
 		fail("Not yet implemented");
 	}
 }
