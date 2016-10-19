@@ -47,6 +47,31 @@ public class PlanetExplorer {
 			String[] commands = command.split("");
 			String command1 = commands[0];
 			String command2 = commands[1];
+			if (command1 == "r"){
+				 turnRight();
+			}
+			if (command1 == "l"){
+				turnLeft();
+			}
+			if (command1 == "f"){
+				goForward();
+			}
+			if (command1 == "b"){
+				goBackward();
+			}
+			
+			if (command2 == "r"){
+				 turnRight();
+			}
+			if (command2 == "l"){
+				turnLeft();
+			}
+			if (command2 == "f"){
+				goForward();
+			}
+			if (command2 == "b"){
+				goBackward();
+			}
 		}
 		/*String[] commands = command.split("");
 		for (int j=0; j<command.length(); j++)
