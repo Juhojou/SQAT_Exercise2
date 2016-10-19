@@ -17,6 +17,11 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,N)", explorer.getStatus());
 	}
 
-	
+	@Test
+	public void test_explorerTurnsToRigth() throws PlanetExplorerException{
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
+		explorer.executeCommand("r");
+		assertEquals("(0,0,N)", explorer.getStatus());
+	}
 	
 }

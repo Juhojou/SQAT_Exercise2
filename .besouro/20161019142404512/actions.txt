@@ -79,3 +79,10 @@ EditAction 1476877272417 TestPlanetExplorer.java 468 2 4 2
 UnitTestCaseAction 1476877274401 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877274401 TestPlanetExplorer.java FAIL
 EditAction 1476877302232 PlanetExplorer.java 1360 3 2 0
+UnitTestCaseAction 1476877304946 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877304946 TestPlanetExplorer.java OK
+RefactoringAction 1476877333400 TestPlanetExplorer.java ADD void test_explorerIsFacingNorth()/2 METHOD
+RefactoringAction 1476877338049 TestPlanetExplorer.java RENAME test_explorerIsFacingNorth()/2=>void test_explorerTurn() METHOD
+RefactoringAction 1476877339079 TestPlanetExplorer.java RENAME test_explorerTurn()=>void test_explorerTurns() METHOD
+RefactoringAction 1476877341653 TestPlanetExplorer.java RENAME test_explorerTurns()=>void test_explorerTurnsToRigth() METHOD
+EditAction 1476877381869 TestPlanetExplorer.java 694 3 7 3
