@@ -224,3 +224,7 @@
 1476878156465 test-first 3 120 true
 1476878156466 test-first 3 120 true
 1476878318387 refactoring 2A 141 true
+1476878439412 refactoring 2A 74 true
+1476878455234 refactoring 2B 5 true
+1476878455235 refactoring 2B 5 true
+1476878455236 regression 1 5 true

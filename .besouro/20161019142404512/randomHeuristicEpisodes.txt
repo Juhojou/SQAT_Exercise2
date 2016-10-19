@@ -7,3 +7,5 @@
 1476877993891 test-addition 2 74 false
 1476878156465 test-first 3 120 true
 1476878318387 refactoring 2A 141 false
+1476878439412 refactoring 2A 74 true
+1476878455234 refactoring 2B 5 true

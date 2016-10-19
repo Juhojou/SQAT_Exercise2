@@ -44,4 +44,11 @@ public class TestPlanetExplorer {
 		explorer.executeCommand("f");
 		assertEquals("(0,1,N)", explorer.getStatus());
 	}
+	
+	@Test
+	public void test_explorerMovesForwardOnceInStatus_2_2_N() throws PlanetExplorerException{
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
+		explorer.executeCommand("f");
+		assertEquals("(2,3,N)", explorer.getStatus());
+	}
 }

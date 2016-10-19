@@ -5,7 +5,6 @@
 
 public class PlanetExplorer {
 	
-	private String status = "(0,0,N)";
 	private int xkoord = 0, ykoord = 0;
 	private String facingDirection = "N";
 	
@@ -53,10 +52,6 @@ public class PlanetExplorer {
 
 	private void turnRight() {
 		facingDirection = "E";
-	}
-
-	private void setStatus(String newStatus) {
-		status = newStatus;
 	}
 
 	public String getStatus() {

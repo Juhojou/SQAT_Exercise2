@@ -163,3 +163,15 @@ UnitTestSessionAction 1476878420084 TestPlanetExplorer.java FAIL
 UnitTestCaseAction 1476878431110 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476878431110 TestPlanetExplorer.java FAIL
 EditAction 1476878438115 PlanetExplorer.java 1843 7 9 0
+UnitTestCaseAction 1476878439412 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476878439412 TestPlanetExplorer.java OK
+RefactoringAction 1476878450208 PlanetExplorer.java REMOVE setStatus(String) METHOD
+RefactoringAction 1476878453811 PlanetExplorer.java REMOVE status FIELD
+UnitTestCaseAction 1476878455234 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476878455234 TestPlanetExplorer.java OK
+RefactoringAction 1476878471910 TestPlanetExplorer.java ADD void test_explorerMovesForwardOnce()/2 METHOD
+RefactoringAction 1476878475514 TestPlanetExplorer.java RENAME test_explorerMovesForwardOnce()/2=>void test_explorerMovesForwardOnceIn() METHOD
+RefactoringAction 1476878485295 TestPlanetExplorer.java RENAME test_explorerMovesForwardOnceIn()=>void test_explorerMovesForwardOnceInStatus() METHOD
+RefactoringAction 1476878501784 TestPlanetExplorer.java RENAME test_explorerMovesForwardOnceInStatus()=>void test_explorerMovesForwardOnceInStatus2_2_N FIELD
+RefactoringAction 1476878502830 TestPlanetExplorer.java RENAME test_explorerMovesForwardOnceInStatus2_2_N=>void test_explorerMovesForwardOnceInStatus_2_2_N FIELD
+EditAction 1476878515653 TestPlanetExplorer.java 1642 7 19 7
