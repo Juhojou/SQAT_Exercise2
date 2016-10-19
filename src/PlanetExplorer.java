@@ -31,20 +31,6 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		if (command.length() > 1){
-			if (command == "r"){
-				 turnRight();
-			}
-			else if (command == "l"){
-				turnLeft();
-			}
-			else if (command== "f"){
-				goForward();
-			}
-			else if (command == "b"){
-				goBackward();
-			}
-		}
-		else {
 			String[] commands = command.split("");
 			String command1 = commands[0];
 			String command2 = commands[1];
@@ -72,7 +58,22 @@ public class PlanetExplorer {
 			}
 			if (command2 == "b"){
 				goBackward();
+			
+		}
+		else {
+			if (command == "r"){
+				 turnRight();
 			}
+			if (command == "l"){
+				turnLeft();
+			}
+			if (command == "f"){
+				goForward();
+			}
+			if (command == "b"){
+				goBackward();
+			}
+	}
 		}
 		/*String[] commands = command.split("");
 		for (int j=0; j<command.length(); j++)
