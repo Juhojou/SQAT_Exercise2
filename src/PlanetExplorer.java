@@ -12,6 +12,9 @@ public class PlanetExplorer {
 		y = ySize;
 		x = xSize;
 		String[] obstaclesInGrid = obstacles.replaceAll("\\(", "").replaceAll("\\)","").replaceAll(",", " ").split(" ");
+		int xkoordObstacle = Integer.parseInt(obstaclesInGrid[0]);
+		int ykoordObstacle = Integer.parseInt(obstaclesInGrid[1]);
+		
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
 	 *  
@@ -90,8 +93,7 @@ public class PlanetExplorer {
 
 	public void setStatus(String givenStatus) {
 		String[] values = givenStatus.replaceAll("\\(", "").replaceAll("\\)","").replaceAll(",", " ").split(" ");
-		xkoord = Integer.parseInt(values[0]);
-		ykoord = Integer.parseInt(values[1]);
+;
 		facingDirection = values[2];
 	}
 
