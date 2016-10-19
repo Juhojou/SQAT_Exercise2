@@ -217,3 +217,6 @@ RefactoringAction 1476879172952 TestPlanetExplorer.java RENAME test_explorerMove
 RefactoringAction 1476879173982 TestPlanetExplorer.java RENAME test_explorerMovesBackwardOnceInStatus_10_2_N()=>void test_explorerMovesBackwardOnceInStatus_10_3_N() METHOD
 EditAction 1476879178958 TestPlanetExplorer.java 1959 8 24 8
 EditAction 1476879186946 TestPlanetExplorer.java 1959 8 24 8
+UnitTestCaseAction 1476879187744 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476879187744 TestPlanetExplorer.java FAIL
+EditAction 1476879197853 TestPlanetExplorer.java 1960 8 24 8

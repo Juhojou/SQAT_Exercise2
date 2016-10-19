@@ -56,7 +56,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_explorerMovesBackwardOnceInStatus_10_3_N() throws PlanetExplorerException{
 		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
-		explorer.setStatus("(2,2,N)");
+		explorer.setStatus("(10,3,N)");
 		explorer.executeCommand("b");
 		assertEquals("(10,4,N)", explorer.getStatus());
 	}
