@@ -21,3 +21,28 @@ UnitTestCaseAction 1476876611147 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476876611147 TestPlanetExplorer.java FAIL
 FileOpenedAction 1476876676964 SpreadsheetTest.java 2661 14 42 4
 EditAction 1476876802732 TestPlanetExplorer.java 299 1 0 0
+CompilationAction 1476876802950 TestPlanetExplorer.java
+CompilationAction 1476876802950 TestPlanetExplorer.java
+CompilationAction 1476876802950 TestPlanetExplorer.java
+CompilationAction 1476876802950 TestPlanetExplorer.java
+UnitTestCaseAction 1476876805380 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476876805380 TestPlanetExplorer.java FAIL
+CompilationAction 1476876858623 TestPlanetExplorer.java
+CompilationAction 1476876858623 TestPlanetExplorer.java
+CompilationAction 1476876858623 TestPlanetExplorer.java
+CompilationAction 1476876858748 TestPlanetExplorer.java
+CompilationAction 1476876858748 TestPlanetExplorer.java
+CompilationAction 1476876858748 TestPlanetExplorer.java
+CompilationAction 1476876875518 TestPlanetExplorer.java
+CompilationAction 1476876875658 TestPlanetExplorer.java
+CompilationAction 1476876875658 TestPlanetExplorer.java
+CompilationAction 1476876875658 TestPlanetExplorer.java
+RefactoringAction 1476876880619 TestPlanetExplorer.java RENAME test_planetIsMade()=>void test_planetIsMade(PlanetExplorer) METHOD
+RefactoringAction 1476876881836 TestPlanetExplorer.java RENAME test_planetIsMade(PlanetExplorer)=>void test_planetIsMade() METHOD
+CompilationAction 1476876905579 TestPlanetExplorer.java
+CompilationAction 1476876905579 TestPlanetExplorer.java
+UnitTestCaseAction 1476876906859 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476876906859 TestPlanetExplorer.java OK
+RefactoringAction 1476876920992 TestPlanetExplorer.java ADD void test_planetIsMade()/2 METHOD
+RefactoringAction 1476876947778 TestPlanetExplorer.java REMOVE test_planetIsMade()/2 METHOD
+EditAction 1476876948246 TestPlanetExplorer.java 306 1 4 1

@@ -9,7 +9,8 @@ public class TestPlanetExplorer {
 	public void test_planetIsMade() throws PlanetExplorerException{
 		int xkoord = 100;
 		int ykoord = 100;
-		PlanetExplorer = new PlanetExplorer(100,100)
-		assertEquals("Not yet implemented");
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
+		assertNotNull(explorer);
 	}
+	
 }
