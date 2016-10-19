@@ -619,3 +619,6 @@ EditAction 1476882964308 PlanetExplorer.java 2551 11 18 0
 RefactoringAction 1476882967147 PlanetExplorer.java REMOVE getObstacleCount() METHOD
 RefactoringAction 1476882970751 PlanetExplorer.java ADD Object getObstacleCount() METHOD
 EditAction 1476883034430 TestPlanetExplorer.java 2664 11 33 11
+UnitTestCaseAction 1476883039909 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476883039909 TestPlanetExplorer.java FAIL
+EditAction 1476883138626 PlanetExplorer.java 2635 11 19 0

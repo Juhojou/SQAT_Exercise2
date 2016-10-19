@@ -11,6 +11,7 @@ public class PlanetExplorer {
 	public PlanetExplorer(int x, int y, String obstacles){
 		y = ySize;
 		x = xSize;
+		String[] obstaclesInGrid = obstacles.replaceAll("\\(", "").replaceAll("\\)","").replaceAll(",", " ").split(" ");
 	/*	x and y represent the size of the grid.
 	 *  Obstacles is a String formatted as follows: "(obs1_x,obs1_y)(obs2_x,obs2_y)...(obsN_x,obsN_y)" with no white spaces. 
 	 *  
@@ -21,7 +22,7 @@ public class PlanetExplorer {
 	}
 	
 	public Object getObstacleCount() {
-		// TODO Auto-generated method stub
+		
 		return null;
 	}
 	
