@@ -19,7 +19,6 @@ public class PlanetExplorer {
 	}
 	
 	public String executeCommand(String command){
-		System.out.print("b");
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
 		 * Example: 
 		 * The explorer is on a 100x100 grid at location (0, 0) and facing NORTH. 
@@ -32,7 +31,10 @@ public class PlanetExplorer {
 		String[] commands = command.split("");
 		for (int j=0; j<commands.length; j++)
 		{
-			System.out.print(",");
+			if (commands.length == 2){
+				System.out.print(commands[0]);
+				System.out.print(commands[1]);
+			}
 			if (commands[j] == "r"){
 				 turnRight();
 			}
@@ -40,8 +42,8 @@ public class PlanetExplorer {
 				turnLeft();
 			}
 			if (commands[j] == "f"){
-				ykoord = ykoord + 1;
-				System.out.print("hee");
+				goForward();
+				System.out.print("asd");
 			}
 			if (commands[j] == "b"){
 				goBackward();
