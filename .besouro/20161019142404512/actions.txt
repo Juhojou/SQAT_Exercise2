@@ -66,3 +66,5 @@ RefactoringAction 1476877224463 TestPlanetExplorer.java ADD Object getStatus(Pla
 RefactoringAction 1476877226678 TestPlanetExplorer.java REMOVE getStatus(PlanetExplorer) METHOD
 RefactoringAction 1476877231608 PlanetExplorer.java ADD Object getStatus(PlanetExplorer) METHOD
 EditAction 1476877232169 PlanetExplorer.java 1380 3 2 0
+CompilationAction 1476877232388 TestPlanetExplorer.java
+EditAction 1476877233355 TestPlanetExplorer.java 467 2 4 2

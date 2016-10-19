@@ -16,5 +16,7 @@ public class TestPlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
 		assertEquals("(0,0,N)", getStatus(explorer));
 	}
+
+	
 	
 }
