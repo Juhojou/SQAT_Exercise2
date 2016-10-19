@@ -7,7 +7,7 @@ public class PlanetExplorer {
 	
 	private String status = "(0,0,N)";
 	private int xkoord = 0, ykoord = 0;
-	private String facingDirection;
+	private String facingDirection = "N";
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -44,7 +44,7 @@ public class PlanetExplorer {
 	}
 
 	private void goForward() {
-		xkoord++;
+		ykoord++;
 	}
 
 	private void turnLeft() {
