@@ -3,5 +3,6 @@
 1476877304946 test-first 1 286 true
 1476877383136 test-addition 1 78 true
 1476877852402 production 3 469 false
-1476877899439 test-addition 1 47 false
-1476877993891 test-addition 2 94 false
+1476877899439 test-addition 1 47 true
+1476877993891 test-addition 2 94 true
+1476878156465 test-first 3 162 true
