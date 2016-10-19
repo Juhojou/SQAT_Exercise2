@@ -56,6 +56,7 @@ public class PlanetExplorer {
 				}
 				if (commands[j] == "f"){
 					goForward();
+					goForward();
 				}
 				if (commands[j] == "b"){
 					goBackward();
