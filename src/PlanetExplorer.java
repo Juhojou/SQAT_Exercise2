@@ -34,8 +34,15 @@ public class PlanetExplorer {
 		if (command == "l"){
 			turnLeft();
 		}
+		if (command == "f"){
+			goForward();
+		}
 		
 		return null;
+	}
+
+	private void goForward() {
+		status = "(0,1,N)";
 	}
 
 	private void turnLeft() {
