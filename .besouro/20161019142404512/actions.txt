@@ -291,3 +291,4 @@ UnitTestSessionAction 1476879782956 TestPlanetExplorer.java FAIL
 RefactoringAction 1476879798088 TestPlanetExplorer.java RENAME test_explorerMoves_f_f_r_f_f_andLandsToStatus_2_2_E()=>void test_explorerMoves_f_f_r_f_f_FromandLandsToStatus_2_2_E() METHOD
 RefactoringAction 1476879800148 TestPlanetExplorer.java RENAME test_explorerMoves_f_f_r_f_f_FromandLandsToStatus_2_2_E()=>void test_explorerMoves_f_f_r_f_f_andLandsToStatus_2_2_E() METHOD
 EditAction 1476879801583 TestPlanetExplorer.java 2220 9 27 9
+EditAction 1476879893888 PlanetExplorer.java 2213 8 12 0
