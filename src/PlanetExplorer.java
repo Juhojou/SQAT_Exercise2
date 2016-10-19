@@ -59,7 +59,7 @@ public class PlanetExplorer {
 	}
 
 	public void setStatus(String givenStatus) {
-		String[] values = givenStatus.split(",");
+		String[] values = givenStatus.replaceAll(",", "").replaceAll("(", "").replaceAll(")", "").split("");
 		System.out.print(values[0]);
 		
 	}
