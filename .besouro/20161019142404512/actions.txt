@@ -504,3 +504,10 @@ UnitTestCaseAction 1476881767550 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476881767550 TestPlanetExplorer.java FAIL
 RefactoringAction 1476881789546 PlanetExplorer.java REMOVE setStatus(String) METHOD
 EditAction 1476881789670 PlanetExplorer.java 2014 7 8 0
+CompilationAction 1476881789764 TestPlanetExplorer.java
+UnitTestCaseAction 1476881793589 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476881793589 TestPlanetExplorer.java FAIL
+CompilationAction 1476881802606 TestPlanetExplorer.java
+UnitTestCaseAction 1476881804996 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476881804996 TestPlanetExplorer.java FAIL
+EditAction 1476881815963 TestPlanetExplorer.java 2218 9 27 9
