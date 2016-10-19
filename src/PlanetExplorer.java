@@ -70,5 +70,10 @@ public class PlanetExplorer {
 		return "(" + xkoord + "," + ykoord + "," + facingDirection + ")";
 	}
 
-	
+	public void setStatus(String givenStatus) {
+		String[] values = givenStatus.replaceAll("\\(", "").replaceAll("\\)","").replaceAll(",", " ").split(" ");
+		xkoord = Integer.parseInt(values[0]);
+		ykoord = Integer.parseInt(values[1]);
+		facingDirection = values[2];
+	}
 }
