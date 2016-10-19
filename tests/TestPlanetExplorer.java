@@ -64,8 +64,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_explorerMoves_f_f_r_f_f_andLandsToStatus_2_2_E() throws PlanetExplorerException{
 		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
-		explorer.setStatus("(10,3,N)");
-		explorer.executeCommand("b");
-		assertEquals("(10,2,N)", explorer.getStatus());
+		explorer.executeCommand("ffrff");
+		assertEquals("(2,2,E)", explorer.getStatus());
 	}
 }
