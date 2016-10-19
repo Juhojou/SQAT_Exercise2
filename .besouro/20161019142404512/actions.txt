@@ -68,3 +68,6 @@ RefactoringAction 1476877231608 PlanetExplorer.java ADD Object getStatus(PlanetE
 EditAction 1476877232169 PlanetExplorer.java 1380 3 2 0
 CompilationAction 1476877232388 TestPlanetExplorer.java
 EditAction 1476877233355 TestPlanetExplorer.java 467 2 4 2
+CompilationAction 1476877233448 TestPlanetExplorer.java
+CompilationAction 1476877252512 TestPlanetExplorer.java
+EditAction 1476877257847 TestPlanetExplorer.java 467 2 4 2
