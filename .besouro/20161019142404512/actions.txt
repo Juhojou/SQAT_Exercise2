@@ -175,3 +175,6 @@ RefactoringAction 1476878485295 TestPlanetExplorer.java RENAME test_explorerMove
 RefactoringAction 1476878501784 TestPlanetExplorer.java RENAME test_explorerMovesForwardOnceInStatus()=>void test_explorerMovesForwardOnceInStatus2_2_N FIELD
 RefactoringAction 1476878502830 TestPlanetExplorer.java RENAME test_explorerMovesForwardOnceInStatus2_2_N=>void test_explorerMovesForwardOnceInStatus_2_2_N FIELD
 EditAction 1476878515653 TestPlanetExplorer.java 1642 7 19 7
+UnitTestCaseAction 1476878518401 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878518401 TestPlanetExplorer.java FAIL
+EditAction 1476878539851 TestPlanetExplorer.java 1667 7 20 7
