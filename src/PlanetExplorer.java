@@ -54,8 +54,7 @@ public class PlanetExplorer {
 				if (commands[j] == "l"){
 					turnLeft();
 				}
-				if (commands[j] == "f"){
-					goForward();
+				if (commands[j].toString() == "f"){
 					goForward();
 				}
 				if (commands[j] == "b"){
