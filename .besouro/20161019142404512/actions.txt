@@ -146,3 +146,4 @@ RefactoringAction 1476878176745 PlanetExplorer.java ADD int xkoord FIELD
 RefactoringAction 1476878176745 PlanetExplorer.java ADD int ykoord FIELD
 RefactoringAction 1476878211753 PlanetExplorer.java ADD String facingDirection FIELD
 EditAction 1476878212424 PlanetExplorer.java 1794 7 9 0
+EditAction 1476878303681 PlanetExplorer.java 1839 7 9 0

@@ -60,6 +60,6 @@ public class PlanetExplorer {
 	}
 
 	public String getStatus() {
-		return status;
+		return "(" + xkoord + "," + ykoord + facingDirection + ")";
 	}
 }
