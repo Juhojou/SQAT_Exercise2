@@ -48,7 +48,7 @@ public class TestPlanetExplorer {
 	@Test
 	public void test_explorerMovesForwardOnceInStatus_2_2_N() throws PlanetExplorerException{
 		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
-		setStatus = "(2,2,N)";
+		explorer.setStatus("(2,2,N)");
 		explorer.executeCommand("f");
 		assertEquals("(2,3,N)", explorer.getStatus());
 	}

@@ -57,4 +57,9 @@ public class PlanetExplorer {
 	public String getStatus() {
 		return "(" + xkoord + "," + ykoord + "," + facingDirection + ")";
 	}
+
+	public void setStatus(String givenStatus) {
+		System.out.print(givenStatus.trim());
+		
+	}
 }

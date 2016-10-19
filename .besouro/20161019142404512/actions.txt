@@ -178,3 +178,10 @@ EditAction 1476878515653 TestPlanetExplorer.java 1642 7 19 7
 UnitTestCaseAction 1476878518401 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476878518401 TestPlanetExplorer.java FAIL
 EditAction 1476878539851 TestPlanetExplorer.java 1667 7 20 7
+CompilationAction 1476878539945 TestPlanetExplorer.java
+RefactoringAction 1476878554921 PlanetExplorer.java ADD String setStatus FIELD
+CompilationAction 1476878573672 TestPlanetExplorer.java
+CompilationAction 1476878573813 TestPlanetExplorer.java
+RefactoringAction 1476878575887 PlanetExplorer.java ADD void setStatus(String) METHOD
+RefactoringAction 1476878580427 PlanetExplorer.java REMOVE setStatus FIELD
+EditAction 1476878652733 PlanetExplorer.java 1829 7 9 0
