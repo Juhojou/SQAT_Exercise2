@@ -48,11 +48,11 @@ public class PlanetExplorer {
 	}
 
 	private void turnLeft() {
-		setStatus("(0,0,W)");
+		facingDirection = "W";
 	}
 
 	private void turnRight() {
-		setStatus("(0,0,E)");
+		facingDirection = "E";
 	}
 
 	private void setStatus(String newStatus) {
@@ -60,6 +60,6 @@ public class PlanetExplorer {
 	}
 
 	public String getStatus() {
-		return status;
+		return "(" + xkoord + "," + ykoord + facingDirection + ")";
 	}
 }
