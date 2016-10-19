@@ -8,3 +8,12 @@ CompilationAction 1476876464543 TestPlanetExplorer.java
 CompilationAction 1476876464543 TestPlanetExplorer.java
 CompilationAction 1476876470832 TestPlanetExplorer.java
 EditAction 1476876513742 TestPlanetExplorer.java 204 1 1 0
+UnitTestCaseAction 1476876515054 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476876515055 TestPlanetExplorer.java FAIL
+RefactoringAction 1476876543491 TestPlanetExplorer.java RENAME test_executeCommand()=>void test_make() METHOD
+RefactoringAction 1476876551505 TestPlanetExplorer.java RENAME test_make()=>void test_planetIsMade() METHOD
+RefactoringAction 1476876581611 TestPlanetExplorer.java ADD PlanetExplorer explorer FIELD
+RefactoringAction 1476876600659 PlanetExplorer.java ADD PlanetExplorer() METHOD
+RefactoringAction 1476876602016 PlanetExplorer.java REMOVE PlanetExplorer() METHOD
+RefactoringAction 1476876608942 TestPlanetExplorer.java REMOVE explorer FIELD
+EditAction 1476876609691 TestPlanetExplorer.java 204 1 1 0
