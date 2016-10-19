@@ -31,10 +31,6 @@ public class PlanetExplorer {
 		String[] commands = command.split("");
 		for (int j=0; j<commands.length; j++)
 		{
-			if (commands.length == 2){
-				System.out.print(commands[0]);
-				System.out.print(commands[1]);
-			}
 			if (commands[j] == "r"){
 				 turnRight();
 			}
@@ -43,7 +39,6 @@ public class PlanetExplorer {
 			}
 			if (commands[j] == "f"){
 				goForward();
-				System.out.print("asd");
 			}
 			if (commands[j] == "b"){
 				goBackward();
