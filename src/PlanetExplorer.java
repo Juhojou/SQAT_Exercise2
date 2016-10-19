@@ -31,8 +31,15 @@ public class PlanetExplorer {
 		if (command == "r"){
 			 turnRight();
 		}
+		if (command == "l"){
+			turnLeft();
+		}
 		
 		return null;
+	}
+
+	private void turnLeft() {
+		setStatus("(0,0,W)");
 	}
 
 	private void turnRight() {
@@ -44,7 +51,6 @@ public class PlanetExplorer {
 	}
 
 	public String getStatus() {
-		// TODO Auto-generated method stub
 		return status;
 	}
 }

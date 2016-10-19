@@ -127,3 +127,12 @@ EditAction 1476877925881 TestPlanetExplorer.java 935 4 10 4
 RefactoringAction 1476877931013 TestPlanetExplorer.java ADD void test_explorerTurnsToRigth()/2 METHOD
 RefactoringAction 1476877935132 TestPlanetExplorer.java RENAME test_explorerTurnsToRigth()/2=>void test_explorerTurnsToLeft() METHOD
 EditAction 1476877942932 TestPlanetExplorer.java 1160 5 13 5
+UnitTestCaseAction 1476877944280 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877944280 TestPlanetExplorer.java FAIL
+RefactoringAction 1476877967805 PlanetExplorer.java ADD void turnLeft() METHOD
+UnitTestCaseAction 1476877993891 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877993891 TestPlanetExplorer.java OK
+RefactoringAction 1476878035497 TestPlanetExplorer.java ADD void test_explorerTurnsToLeft()/2 METHOD
+RefactoringAction 1476878042735 TestPlanetExplorer.java RENAME test_explorerTurnsToLeft()/2=>void test_explorerMovesFor() METHOD
+RefactoringAction 1476878046869 TestPlanetExplorer.java RENAME test_explorerMovesFor()=>void test_explorerMovesForwardOnce() METHOD
+EditAction 1476878105432 TestPlanetExplorer.java 1394 6 16 6
