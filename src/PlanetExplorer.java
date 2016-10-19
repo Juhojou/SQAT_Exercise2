@@ -31,6 +31,6 @@ public class PlanetExplorer {
 
 	public Object getStatus() {
 		// TODO Auto-generated method stub
-		return null;
+		return "(0,0,N)";
 	}
 }
