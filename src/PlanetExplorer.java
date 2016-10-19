@@ -19,8 +19,13 @@ public class PlanetExplorer {
 		 
 	 */
 	}
+	
 	public int getPlanetYSize(){
 		return ySize;
+	}
+	
+	public int getPlanetXSize(){
+		return xSize;
 	}
 	
 	public String executeCommand(String command){
@@ -59,7 +64,9 @@ public class PlanetExplorer {
 	}
 	
 	private void goBackward() {
-		if ()
+		if (ykoord == 0){
+			ykoord = 99;
+		}
 		ykoord--;
 	}
 

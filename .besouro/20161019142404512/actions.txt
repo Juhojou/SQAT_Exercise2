@@ -595,3 +595,11 @@ RefactoringAction 1476882699970 PlanetExplorer.java ADD int ySize FIELD
 RefactoringAction 1476882701515 PlanetExplorer.java ADD int x FIELD
 RefactoringAction 1476882704603 PlanetExplorer.java RENAME x=>int xSize FIELD
 EditAction 1476882715430 PlanetExplorer.java 2373 9 14 0
+CompilationAction 1476882715633 PlanetExplorer.java
+RefactoringAction 1476882725710 PlanetExplorer.java ADD int getPlanetYSize()/2 METHOD
+RefactoringAction 1476882734462 PlanetExplorer.java RENAME getPlanetYSize()/2=>int getPlanetSize() METHOD
+RefactoringAction 1476882735507 PlanetExplorer.java RENAME getPlanetSize()=>int getPlanetXSize() METHOD
+CompilationAction 1476882735788 PlanetExplorer.java
+CompilationAction 1476882735913 PlanetExplorer.java
+CompilationAction 1476882765256 PlanetExplorer.java
+EditAction 1476882797923 PlanetExplorer.java 2458 10 17 0
