@@ -5,7 +5,7 @@
 
 public class PlanetExplorer {
 	
-	static int xkoord = 0, ykoord = 0;
+	private int xkoord = 0, ykoord = 0;
 	private String facingDirection = "N";
 	
 	public PlanetExplorer(int x, int y, String obstacles){
