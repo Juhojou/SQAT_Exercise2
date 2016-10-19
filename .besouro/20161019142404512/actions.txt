@@ -17,3 +17,7 @@ RefactoringAction 1476876600659 PlanetExplorer.java ADD PlanetExplorer() METHOD
 RefactoringAction 1476876602016 PlanetExplorer.java REMOVE PlanetExplorer() METHOD
 RefactoringAction 1476876608942 TestPlanetExplorer.java REMOVE explorer FIELD
 EditAction 1476876609691 TestPlanetExplorer.java 204 1 1 0
+UnitTestCaseAction 1476876611147 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476876611147 TestPlanetExplorer.java FAIL
+FileOpenedAction 1476876676964 SpreadsheetTest.java 2661 14 42 4
+EditAction 1476876802732 TestPlanetExplorer.java 299 1 0 0

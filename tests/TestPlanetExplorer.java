@@ -7,6 +7,9 @@ public class TestPlanetExplorer {
 
 	@Test
 	public void test_planetIsMade() throws PlanetExplorerException{
-		fail("Not yet implemented");
+		int xkoord = 100;
+		int ykoord = 100;
+		PlanetExplorer = new PlanetExplorer(100,100)
+		assertEquals("Not yet implemented");
 	}
 }
