@@ -38,12 +38,19 @@ public class PlanetExplorer {
 		if (command == "f"){
 			goForward();
 		}
+		if (command == "b"){
+			goBackward();
+		}
 		
 		return null;
 	}
 
 	private void goForward() {
 		ykoord++;
+	}
+	
+	private void goBackward() {
+		ykoord--;
 	}
 
 	private void turnLeft() {
