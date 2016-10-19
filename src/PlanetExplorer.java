@@ -59,7 +59,8 @@ public class PlanetExplorer {
 	}
 
 	public void setStatus(String givenStatus) {
-		System.out.print(givenStatus.trim());
+		String[] values = givenStatus.split(",");
+		System.out.print(values[0]);
 		
 	}
 }

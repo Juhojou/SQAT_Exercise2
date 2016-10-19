@@ -185,3 +185,7 @@ CompilationAction 1476878573813 TestPlanetExplorer.java
 RefactoringAction 1476878575887 PlanetExplorer.java ADD void setStatus(String) METHOD
 RefactoringAction 1476878580427 PlanetExplorer.java REMOVE setStatus FIELD
 EditAction 1476878652733 PlanetExplorer.java 1829 7 9 0
+UnitTestCaseAction 1476878653937 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476878653937 TestPlanetExplorer.java FAIL
+FileOpenedAction 1476878662112 Spreadsheet.java 1010 3 4 0
+EditAction 1476878793550 PlanetExplorer.java 1864 7 10 0
