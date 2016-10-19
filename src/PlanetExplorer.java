@@ -43,7 +43,7 @@ public class PlanetExplorer {
 			}
 		}
 		else {
-			String[] commands = command.split(",");
+			String[] commands = command.split("");
 			for (int j=0; j<commands.length; j++)
 			{
 				System.out.print(commands.length + " ");
