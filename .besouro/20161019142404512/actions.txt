@@ -124,3 +124,6 @@ UnitTestSessionAction 1476877899439 TestPlanetExplorer.java OK
 RefactoringAction 1476877919142 TestPlanetExplorer.java REMOVE test_emptyCommandGivesLandingStatus() METHOD
 RefactoringAction 1476877923291 TestPlanetExplorer.java ADD void test_emptyCommandGivesLandingStatus() METHOD
 EditAction 1476877925881 TestPlanetExplorer.java 935 4 10 4
+RefactoringAction 1476877931013 TestPlanetExplorer.java ADD void test_explorerTurnsToRigth()/2 METHOD
+RefactoringAction 1476877935132 TestPlanetExplorer.java RENAME test_explorerTurnsToRigth()/2=>void test_explorerTurnsToLeft() METHOD
+EditAction 1476877942932 TestPlanetExplorer.java 1160 5 13 5

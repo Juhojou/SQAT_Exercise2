@@ -31,5 +31,10 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,E)", explorer.getStatus());
 	}
 	
-	
+	@Test
+	public void test_explorerTurnsToLeft() throws PlanetExplorerException{
+		PlanetExplorer explorer = new PlanetExplorer(100, 100, null);
+		explorer.executeCommand("l");
+		assertEquals("(0,0,W)", explorer.getStatus());
+	}
 }
