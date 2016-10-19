@@ -59,3 +59,10 @@ RefactoringAction 1476877066724 TestPlanetExplorer.java RENAME test_explorerIsFa
 RefactoringAction 1476877161245 TestPlanetExplorer.java ADD Object getStatus(PlanetExplorer) METHOD
 RefactoringAction 1476877164521 TestPlanetExplorer.java REMOVE getStatus(PlanetExplorer) METHOD
 EditAction 1476877178499 TestPlanetExplorer.java 464 2 4 2
+CompilationAction 1476877178717 TestPlanetExplorer.java
+UnitTestCaseAction 1476877208519 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877208519 TestPlanetExplorer.java FAIL
+RefactoringAction 1476877224463 TestPlanetExplorer.java ADD Object getStatus(PlanetExplorer) METHOD
+RefactoringAction 1476877226678 TestPlanetExplorer.java REMOVE getStatus(PlanetExplorer) METHOD
+RefactoringAction 1476877231608 PlanetExplorer.java ADD Object getStatus(PlanetExplorer) METHOD
+EditAction 1476877232169 PlanetExplorer.java 1380 3 2 0

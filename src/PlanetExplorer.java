@@ -14,6 +14,11 @@ public class PlanetExplorer {
 	 */
 	}
 	
+	private Object getStatus(PlanetExplorer explorer) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 	public String executeCommand(String command){
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
