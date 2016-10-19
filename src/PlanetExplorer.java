@@ -30,7 +30,8 @@ public class PlanetExplorer {
 		 */
 	
 		String[] commands = command.split(",");
-		for (int j=0; j<commands.length; j++)
+		int j;
+		for (j; j<commands.length; j++)
 		{
 			System.out.print(commands.length + " ");
 			System.out.print(j);
