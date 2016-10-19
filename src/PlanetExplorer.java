@@ -31,18 +31,11 @@ public class PlanetExplorer {
 		String[] commands = command.split("");
 		for (int j=0; j<commands.length; j++)
 		{
-			if (commands[j] == "r"){
-				 turnRight();
-			}
-			if (commands[j] == "l"){
-				turnLeft();
-			}
+
 			if (commands[j] == "f"){
 				goForward();
 			}
-			if (commands[j] == "b"){
-				goBackward();
-			}
+	
 		}
 			
 		return null;
