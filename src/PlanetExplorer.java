@@ -65,7 +65,7 @@ public class PlanetExplorer {
 	
 	private void goBackward() {
 		if (ykoord == 0){
-			ykoord = 98;
+			ykoord = 100;
 		}
 		ykoord--;
 	}
