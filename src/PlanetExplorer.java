@@ -39,9 +39,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		//For some reason I can't get e.g. "ff" work with my split
-		String[] commands = command.split("");
-		for (int j=0; j<command.length(); j++)
-		{
+		
 			if (commands[j] == "r"){
 				 turnRight();
 			}
@@ -54,7 +52,6 @@ public class PlanetExplorer {
 			if (commands[j] == "b"){
 				goBackward();
 			}
-		}
 			
 		return null;
 	}
