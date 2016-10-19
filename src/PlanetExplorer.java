@@ -31,7 +31,6 @@ public class PlanetExplorer {
 		String[] commands = command.split(",");
 		for (int j=0; j<command.length(); j++)
 		{
-			System.out.print(command.length() + " ");
 			if (commands[j] == "r"){
 				 turnRight();
 			}
