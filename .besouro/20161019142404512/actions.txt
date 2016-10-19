@@ -86,3 +86,6 @@ RefactoringAction 1476877338049 TestPlanetExplorer.java RENAME test_explorerIsFa
 RefactoringAction 1476877339079 TestPlanetExplorer.java RENAME test_explorerTurn()=>void test_explorerTurns() METHOD
 RefactoringAction 1476877341653 TestPlanetExplorer.java RENAME test_explorerTurns()=>void test_explorerTurnsToRigth() METHOD
 EditAction 1476877381869 TestPlanetExplorer.java 694 3 7 3
+UnitTestCaseAction 1476877383136 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476877383136 TestPlanetExplorer.java OK
+EditAction 1476877395148 TestPlanetExplorer.java 694 3 7 3
